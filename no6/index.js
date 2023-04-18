@@ -17,7 +17,7 @@ class MarkdownToHtmlConverter {
       }
 
       // Convert Markdown to HTML using marked library
-      const htmlContent = marked(markdownContent);
+      const htmlContent = marked.marked(markdownContent);
 
       // Write HTML content to a new file
       fs.writeFile('output.html', htmlContent, (err) => {

@@ -152,7 +152,6 @@ class BlogEngine {
     if (postId >= 0 && postId < this.blogPosts.length) {
       // Delete the blog post from the array
       this.blogPosts.splice(postId, 1);
-      res.writeHead(302, { 'Location': '/' });
       res.end();
     } else {
       res.writeHead(404, { 'Content-Type': 'text/plain' });

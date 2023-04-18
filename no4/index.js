@@ -3,7 +3,7 @@
 const http = require('http');
 
 // Replace with your own Merriam-Webster API key
-const apiKey = 'YOUR_API_KEY';
+const apiKey = '4ee6d020-710d-4c37-9be9-60c7e4abd6cc';
 const word = process.argv[2];
 
 if (!word) {
